@@ -1,0 +1,33 @@
+{
+  "name": "@amadeus-hospitality/angular",
+  "version": "0.0.8",
+  "description": "Amadeus Angular shared repository",
+  "main": "index.js",
+  "module": "index.js",
+  "jsnext:main": "index.js",
+  "types": "dist/test.component.d.ts",
+  "scripts": {
+    "prepublish": "tsc -p src/ && npm run rollup",
+    "rollup": "rollup dist/test.component.js --format umd --name 'myBundle' --output index.js"
+  },
+  "keywords": [
+    "Amadeus",
+    "Amadeus",
+    "Hospitality",
+    "Angular"
+  ],
+  "author": "Robert Broden",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^4.2.3",
+    "@angular/core": "^4.2.3",
+    "@angular/http": "^4.2.3",
+    "@angular/platform-browser": "^4.2.3",
+    "rxjs": "^5.4.1",
+    "zone.js": "^0.8.12"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "typescript": "^2.3.4"
+  }
+}

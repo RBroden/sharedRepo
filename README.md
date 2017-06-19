@@ -1,0 +1,1 @@
+Amadeus Hospitality Angular shared repository
